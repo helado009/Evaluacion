@@ -8,8 +8,88 @@
   <title>Document</title>
 </head>
 
-<body>
-  <h1>Hola mundo</h1>
+<body class="bg-orange-50 text-gray-800">
+  <header class="bg-orange-600 text-white">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <img src="https://img.freepik.com/vector-gratis/logo-restaurante-retro_23-2148490227.jpg?semt=ais_hybrid"
+          alt="Logo de la empresa" class="rounded-full mr-3 object-cover" width="100" height="100">
+        <h1 class="text-xl font-bold">Negocio de Comida</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="#servicios" class="hover:text-orange-200">Servicios</a></li>
+          <li><a href="#galeria" class="hover:text-orange-200">Galería</a></li>
+          <li><a href="#contacto" class="hover:text-orange-200">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="py-10">
+    <div class="container mx-auto px-6">
+      <section class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-orange-700 mb-4">¡Bienvenidos a Nuestro Negocio de Comida!</h2>
+        <p class="text-lg text-gray-600">Descubre la experiencia de sabores únicos, preparados con ingredientes frescos
+          y pasión por la cocina.</p>
+      </section>
+
+      <section id="servicios" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <img
+            src="https://www.eluniverso.com/resizer/v2/ZZV7V5ZDZRCTJKIZFJ6CG4GJ6I.jpg?auth=b440351d564f25fa8d0255196cbf60458286b880a4fb7bef8bd38465ea953c0b&width=1000&height=666&quality=75&smart=true"
+            alt="Restaurante" class="w-36 h-36 mx-auto rounded-full mb-4 shadow-lg object-cover">
+          <h3 class="text-xl font-semibold text-orange-700 mb-2">Restaurante</h3>
+          <p class="text-gray-600">Disfruta de un espacio único donde cada plato es una obra de arte culinaria.</p>
+        </div>
+        <div class="text-center">
+          <img src="https://transporte-inmediato.com/wp-content/uploads/2020/12/entregas-a-domicilio-1080x675.jpg"
+            alt="Entrega a domicilio" class="w-36 h-36 mx-auto rounded-full mb-4 shadow-lg object-cover">
+          <h3 class="text-xl font-semibold text-orange-700 mb-2">Entrega a Domicilio</h3>
+          <p class="text-gray-600">Te llevamos la experiencia gastronómica directamente a tu hogar.</p>
+        </div>
+        <div class="text-center">
+          <img src="https://catitus.com/wp-content/uploads/2022/10/z-catering-quito-ecuador-05.jpg" alt="Catering"
+            class="w-36 h-36 mx-auto rounded-full mb-4 shadow-lg object-cover">
+          <h3 class="text-xl font-semibold text-orange-700 mb-2">Catering</h3>
+          <p class="text-gray-600">Organiza eventos inolvidables con nuestro servicio de catering personalizado.</p>
+        </div>
+      </section>
+
+      <section id="galeria" class="mb-12">
+        <h2 class="text-3xl font-bold text-orange-700 mb-6 text-center">Galería</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div>
+            <img
+              src="https://content.skyscnr.com/m/2dcd7d0e6f086057/original/GettyImages-186142785.jpg?resize=1224%3Aauto"
+              alt="Platillo 1" class="w-full h-64 rounded-lg shadow-md object-cover">
+          </div>
+          <div>
+            <img src="https://content.elmueble.com/medio/2023/03/14/postres_26b157c0_00543830_230314170928_1417x957.jpg"
+              alt="Postre 1" class="w-full h-64 rounded-lg shadow-md object-cover">
+          </div>
+          <div>
+            <img src="https://assets.unileversolutions.com/recipes-v2/232222.jpg" alt="Bebida 1"
+              class="w-full h-64 rounded-lg shadow-md object-cover">
+          </div>
+          <div>
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/024/575/045/non_2x/grilled-meat-and-vegetables-on-rustic-skewers-generated-by-ai-free-photo.jpg"
+              alt="Platillo 2" class="w-full h-64 rounded-lg shadow-md object-cover">
+          </div>
+          <div>
+            <img src="https://cdn0.recetasgratis.net/es/posts/1/7/7/ensalada_de_apio_tomate_y_aguacate_60771_orig.jpg"
+              alt="Ensalada" class="w-full h-64 rounded-lg shadow-md object-cover">
+          </div>
+          <div>
+            <img src="https://www.juiciocrudo.com/pics/nocrop/800x480/df7b3c6218f07d7f05bf2bb59119aa7cbaf89c41.jpg"
+              alt="Cocina Internacional" class="w-full h-64 rounded-lg shadow-md object-cover">
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
 </body>
 
 </html>
